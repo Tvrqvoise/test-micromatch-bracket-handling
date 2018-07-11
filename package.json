@@ -1,0 +1,23 @@
+{
+  "name": "test-micromatch-bracket-handling",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Test case for [micromatch issue #133](https://github.com/micromatch/micromatch/issues/133)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i micromatch@2; node index.js; npm i micromatch@latest; node index.js;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tvrqvoise/test-micromatch-bracket-handling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tvrqvoise/test-micromatch-bracket-handling/issues"
+  },
+  "homepage": "https://github.com/Tvrqvoise/test-micromatch-bracket-handling#readme",
+  "dependencies": {
+    "micromatch": "*"
+  }
+}
